@@ -1,0 +1,17 @@
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(rgb(46, 46, 46), rgb(26, 25, 25), black);
+  height: 50px;
+}
+
+.boton {
+  border: none;
+  background: linear-gradient(rgb(46, 46, 46), rgb(26, 25, 25), black);
+  font-family: 'Reem Kufi', sans-serif;
+  color: rgb(184, 183, 183);
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
