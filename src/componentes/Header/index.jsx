@@ -7,13 +7,13 @@ const Header = () => {
     <div>
       <div className={S.buttonContainer}>
         <Link to="/">
-          <button className={S.boton}> SOBRE MÍ </button>
+          <button className={S.boton}> SOBRE <span className={S.tagSpan}>MI</span></button>
         </Link>
         <Link to="/proyects">
-          <button className={S.boton}> PROYECTOS </button>
+          <button className={S.boton}> PROYE<span className={S.tagSpan}>CTOS</span></button>
         </Link>
         <Link to="/contact">
-          <button className={S.boton}> CONTACTO </button>
+          <button className={S.boton}> CONT<span className={S.tagSpan}>ACTO</span></button>
         </Link>
       </div>
     </div>
