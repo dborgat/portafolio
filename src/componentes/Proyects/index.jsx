@@ -4,62 +4,62 @@ import S from "./proyects.module.css";
 const Proyects = () => {
   return (
     <div className={S.proyectsContainer}>
-      <div className={S.singleProyect}>
-        <a
-          href="https://github.com/dborgat/OMDB"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <div className={S.cards}>
+        <div className={S.card}>
+          <h2 className={S.cardTitle}>OMBD</h2>
           <img
-            src={`data:image/jpeg;base64,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`}
-            alt={`imbd`}
+            src={`${"https://i.postimg.cc/141nr0Gw/samuel-regan-asante-w-Mka-MXTJjl-Q-unsplash.jpg"}`}
+            alt=""
           ></img>
-        </a>
-        <p className={S.paragraph}>Proyecto EstacionAR</p>
-        <p className={S.paragraph}>
-          lorem lorem ipsum dolor sit amet, consectet lorem ips loresmlorem
-          lorem ipsum dolor sit amet, consectet lorem ips loresmlorem lorem
-          ipsum dolor sit amet, consectet lorem ips loresmlorem lorem ipsum
-          dolor sit amet, consectet lorem ips loresm
-        </p>
+          <p className={S.cardDesc}>Proyecto en el cual emulamos desde 0 una web que contiene películas al estilo OMDB. En este proyecto utilizamos REACT y una api externa para tener el contenido.</p>
+        </div>
+        <div className={S.card}>
+          <h2 className={S.cardTitle}>E-Commerce</h2>
+          <img
+            src={`${"https://i.postimg.cc/3JknS3gw/cardmapr-nl-h-TUZW7-E7krg-unsplash.jpg"}`}
+            alt=""
+          ></img>
+          <p className={S.cardDesc}>En 2 semanas junto con un equipo de 5 personas logramos armar un E- commerce desde 0! Manejando mongoDB y REACT!</p>
+        </div>
+        <div className={S.card}>
+          <h2 className={S.cardTitle}>EstacionAr</h2>
+          <img
+            // src={`${"https://i.postimg.cc/NfnPBKgT/20210101-194326.jpg"}`}
+            src={`${"https://i.postimg.cc/NFq1f2NJ/anne-nygard-Fw-RTLAj-Te-E0-unsplash.jpg"}`}
+            alt=""
+          ></img>
+          <p className={S.cardDesc}>
+            Proyecto el cual fue ideado para la etapa profesional del bootcamp.
+            Se trata de una aplicación mobile hecha con REACT NATIVE + FIREBASE
+            para saber dónde estacionar, cuanto tiempo tenés, etc. El mismo lo
+            llevamos a cabo un equipo de 5 personas utilizando SCRUM como
+            metodología agil.
+          </p>
+        </div>
       </div>
-      <div className={S.singleProyect}>
+      <div className={S.buttonContainer}>
         <a
-          href="https://github.com/dborgat/E-commerce"
+          href={"https://github.com/dborgat/omdb"}
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfvHyFpeT5wf2i5KYm5AlmnBhiwHDcmg-SgA&usqp=CAU`}
-            alt={`ecomerce`}
-          />
+          <button className={S.button}> REPO DE GITHUB</button>
         </a>
-        <p className={S.paragraph}>Proyecto ecommerce Drunkart</p>
-        <p className={S.paragraph}>
-          lorem lorem ipsum dolor sit amet, consectet lorem ips loresmlorem
-          lorem ipsum dolor sit amet, consectet lorem ips loresmlorem lorem
-          ipsum dolor sit amet, consectet lorem ips loresmlorem lorem ipsum
-          dolor sit amet, consectet lorem ips loresm
-        </p>
-      </div>
-      <div className={S.singleProyect}>
         <a
-          href="https://github.com/augustomorales92/EstacionAr"
+          href={"https://github.com/dborgat/E-commerce"}
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfvHyFpeT5wf2i5KYm5AlmnBhiwHDcmg-SgA&usqp=CAU`}
-            alt={`estacionar`}
-          />
+          <button className={S.button}> REPO DE GITHUB</button>
         </a>
-        <p className={S.paragraph}>Proyecto EstacionAR</p>
-        <p className={S.paragraph}>
-          lorem lorem ipsum dolor sit amet, consectet lorem ips loresmlorem
-          lorem ipsum dolor sit amet, consectet lorem ips loresmlorem lorem
-          ipsum dolor sit amet, consectet lorem ips loresmlorem lorem ipsum
-          dolor sit amet, consectet lorem ips loresm
-        </p>
+        <a
+          href={"https://github.com/dborgat/EstacionAr"}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className={S.button}> REPO DE GITHUB</button>
+        </a>
+
       </div>
     </div>
   );
