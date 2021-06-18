@@ -38,4 +38,87 @@
   font-size: 25px;
 }
 
+.blue {
+  color: #29b6f6;
+}
+.green {
+  color: #9ccc65;
+}
+.purple {
+  color: #ba68c8;
+}
+.cyan {
+  color: #4dd0e1;
+}
+.red {
+  color: #ee2f2c;
+}
+.content {
+  height: 50vh;
+  color: rgb(136, 136, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  perspective: 150rem;
+  height: 20rem;
+  width: 30rem;
+  position: relative;
+}
+.card__side {
+  height: 15rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 30rem;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+.card__side__front {
+  font-size: 35px;
+  background-color: #00000000;
+}
+.card__side__back {
+  transform: rotateY(180deg);
+  background-color: #00000041;
+}
+.card:hover .card__side__front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side__back {
+  transform: rotateY(0deg);
+}
+.card__cont {
+  height: 15rem;
+  background-color: #0000005e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  color: white;
+}
+.card__cta p {
+  margin-left: 1rem;
+}
+.card__cta p > .space {
+  margin-left: 2rem;
+}
+
+.ancor{
+  text-decoration: none;
+}
+
+/* ------------------------------------- */
+
 
