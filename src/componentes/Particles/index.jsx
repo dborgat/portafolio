@@ -98,7 +98,7 @@ const particlesoptions = {
 const particlesoptions2 = {
   particles: {
     number: {
-      value: 120,
+      value: 100,
       density: {
         enable: true,
         value_area: 200,
@@ -115,7 +115,7 @@ const particlesoptions2 = {
       },
     },
     opacity: {
-      value: 1,
+      value: 0.5,
       random: true,
       anim: {
         enable: true,
@@ -129,7 +129,7 @@ const particlesoptions2 = {
       random: true,
       anim: {
         enable: true,
-        speed: 4,
+        speed: 1,
         size_min: 0.3,
         sync: true,
       },
@@ -137,14 +137,14 @@ const particlesoptions2 = {
     line_linked: {
       enable: true,
       distance: 20,
-      color: "#ffffff",
-      opacity: 0.4,
-      width: 1,
+      color: "#ff0000",
+      opacity: 0.8,
+      width: 2,
     },
     move: {
       enable: true,
       speed: 1,
-      direction: "bottom",
+      direction: "random",
       random: true,
       straight: false,
       out_mode: "out",

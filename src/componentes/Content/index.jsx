@@ -22,10 +22,7 @@ const Content = () => {
             <div className={`${S.card__side} ${S.card__side__front}`}>
               {/* <!-- Front Content --> */}
               <div className={S.card__cont}>
-                <span className={S.red}>{`personalInfo && card`}</span>
-                <span>
-                  <span className={S.green}></span>
-                </span>
+                <span className={S.red}>{`👉🏽 personalInfo && card 👈🏽`}</span>
               </div>
             </div>
             <div className={`${S.card__side} ${S.card__side__back}`}>
@@ -41,7 +38,7 @@ const Content = () => {
                   <br />
                   <span className={`${S.space} ${S.red}`}>age</span>
                   <span className={S.cyan}>:</span>{" "}
-                  <span className={S.green}>29</span>',
+                  <span className={S.green}>'29'</span>,
                   <br />
                   <span className={`${S.space} ${S.red}`}>email</span>
                   <span className={S.cyan}>:</span>

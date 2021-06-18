@@ -4,9 +4,8 @@ import S from "./contact.module.css";
 const Contact = () => {
   return (
     <div className={S.content}>
-      <div className={S.card}>
+      {/* <div className={S.card}>
         <div className={`${S.card__side} ${S.card__side__front}`}>
-          {/* <!-- Front Content --> */}
           <div className={S.card__cont}>
             <span className={S.blue}>{`setTimeout(()=>`}</span>
             <span>
@@ -15,7 +14,6 @@ const Contact = () => {
           </div>
         </div>
         <div className={`${S.card__side} ${S.card__side__back}`}>
-          {/* <!-- Back Content --> */}
           <div className={S.card__cta}>
             <p>
               <span className={S.purple}>const</span> Developer{" "}
@@ -43,7 +41,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
